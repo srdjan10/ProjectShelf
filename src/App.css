@@ -1,20 +1,9 @@
-.App {
+/* .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
+  background-color: #804000;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,17 +11,171 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  opacity: 0.7;
+  width: auto;
+  height: auto;
+  border-top-left-radius: 80px;
+  border-bottom-right-radius: 120px;
+}
+.App-header:hover {
+  opacity: 1;
 }
 
-.App-link {
-  color: #61dafb;
+.App-footer {
+  background-color: #804000;
+  min-height: 3vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(2px + 2vmin);
+  color: white;
+}
+.headMainLayout {
+  background-color: white;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(5px + 2vmin);
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.h1MainLayout {
+  margin-right: 70%;
+  font-size: 30px;
+  font-family: cursive;
+  color: #804000;
+}
+
+.navMainLayout {
+  margin-left: 60%;
+  margin-top: -4%;
+  font-size: 20px;
+}
+.space {
+  padding: 15px;
+  text-align: center;
+}
+
+.buttonMainLayout {
+  cursor: pointer;
+  border: 0;
+  border-radius: 4px;
+  font-weight: 600;
+  width: 150px;
+  padding: 5px 0px;
+  transition: 0.4s;
+  position: static;
+  padding: 10px;
+}
+
+.buttonMainLayout:hover {
+  width: 200px;
+  background-color: #d6a06a;
+} */
+/*Contact*/
+/* .position {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+.positioncont {
+  padding: 5%;
+  font-size: 20px;
+  text-align: center;
+}
+.posp {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  color: #804000;
+} */
+/*Contact*/
+/* 
+.card {
+  border-radius: 3rem;
+  border: 0.1rem solid #804000;
+  width: 30%;
+  color: gray;
+  font-family: cursive;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  margin-left: 1%;
+  color: #804000;
+}
+
+.cardAll {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 0 auto;
+}
+
+.imgradius {
+  border-radius: 10px;
+}
+
+.descriptioncard {
+  width: 100%;
+  height: 30%;
+  color: gray;
+  font-family: cursive;
+  text-align: left;
+  color: #804000;
+  padding: 10px;
+}
+
+.descriptioncard1 {
+  width: 100%;
+  height: 30%;
+  color: gray;
+  font-family: cursive;
+  text-align: left;
+  color: #804000;
+  border-radius: 5px;
+  border: 3px solid #804000;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.burger_menu_btn,
+.burger_menu {
+  display: none;
+}
+
+@media only screen and (max-width: 600px), (orientation: portrait) {
+  .card {
+    border: 0.1rem solid #804000;
+    width: 100%;
+    margin-left: 10%;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .imgradius {
+    border-radius: 50px;
+  }
+  .burger_menu {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 50vh;
+  }
+  .burger_menu Link {
+    width: 100%;
+    height: calc(100vh - 60px);
+    padding-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    font-size: 3rem;
+    padding: 30px 0;
+  }
+}
+ */
