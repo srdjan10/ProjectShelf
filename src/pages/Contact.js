@@ -12,7 +12,7 @@ const Contact = () => {
       transition={{ duration: 2 }}
     >
       <section class="mb-32">
-        <div class="flex justify-center">
+        <div class="flex justify-center ">
           <div class="text-center md:max-w-xl lg:max-w-3xl">
             <h2 class="mb-10 px-6 text-medium font-bold italic">
               Kontaktirajte me licno ili putem drustvenih mreza
