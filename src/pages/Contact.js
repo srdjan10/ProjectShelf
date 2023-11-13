@@ -2,10 +2,15 @@ import { FaFacebook } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { BsInstagram } from "react-icons/bs";
 import { BsFillTelephoneFill } from "react-icons/bs";
-
+import { motion as m } from "framer-motion";
 const Contact = () => {
   return (
-    <div class="container my-18 mx-auto md:px-6 text-amber-700">
+    <m.div
+      class="container my-18 mx-auto md:px-6 text-amber-700"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 2 }}
+    >
       <section class="mb-32">
         <div class="flex justify-center">
           <div class="text-center md:max-w-xl lg:max-w-3xl">
@@ -91,7 +96,7 @@ const Contact = () => {
           </div>
         </div>
       </section>
-    </div>
+    </m.div>
   );
 };
 export default Contact;

@@ -1,9 +1,14 @@
 import Card from "../components/Card";
 import ProductsItem from "../data.js/ProductsItem";
-
+import { motion as m } from "framer-motion";
 const Products = () => {
   return (
-    <div class="text-amber-700">
+    <m.div
+      class="text-amber-700"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 2 }}
+    >
       <span class="indent-8 text-justify ml-8">
         <b>Police za vino</b> koje proizvodimo su unikatne i uklopljive u svaki
         enterijer.Police su ručno rađene obrađene i lakirane tri puta. Prava su
@@ -48,7 +53,7 @@ const Products = () => {
           </Card>
         ))}
       </div>
-    </div>
+    </m.div>
   );
 };
 export default Products;

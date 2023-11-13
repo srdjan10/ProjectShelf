@@ -1,8 +1,12 @@
 import policazavinonaslov from "../images/polica_za_vino_v7.jpg";
-
+import { motion as m } from "framer-motion";
 const Welcome = () => {
   return (
-    <div>
+    <m.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 2.25 }}
+    >
       <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl content-center mb-12">
         <div class="md:flex">
           <div class="md:shrink-0">
@@ -28,7 +32,7 @@ const Welcome = () => {
           </div>
         </div>
       </div>
-    </div>
+    </m.div>
   );
 };
 export default Welcome;
